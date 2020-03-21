@@ -1,0 +1,43 @@
+body{
+  background-color: #000;
+  font-family: monospace;
+  color:#0f0;
+  font-size: 25px;
+}
+#background{
+  border-color: #0f0;
+  border-width: 2px;
+  border-style: solid;
+  position: fixed;
+  z-index: 1;
+}
+#inner_background{
+  border-color: #0f0;
+  border-width: 2px;
+  border-style: solid;
+  position: fixed;
+  z-index: 0;
+}
+#Sys_type{
+  background-color: #000;
+  position: fixed;
+  left:-1000;
+  z-index: -1;
+}
+#date_time{
+  background-color: #000;
+  position: fixed;
+  right:1000px;
+  z-index: -1;
+}
+.boxes{
+  text-align: center;
+  margin-top: 1%;
+  background-color: #020;
+  border-color: #0f0;
+  border-radius: 1px;
+  border-style: solid;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 20px;
+}

@@ -1,0 +1,50 @@
+
+#ID_label{
+  text-align: center;
+position: fixed;
+  top: 15%;
+  left:10%;
+}
+
+#password_label{
+  text-align: center;
+  position: fixed;
+  top: 35%;
+  left:10%;
+}
+
+#password{
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left:10%;
+  z-index: 2;
+}
+#ID{
+  text-align: center;
+  position: fixed;
+  top: 20%;
+  left:10%;
+  z-index: 2;
+}
+#submit{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left:10%;
+  z-index: 2;
+}
+#error_box{
+  position: fixed;
+  top:20%;
+  left:25%;
+  border-style: double;
+  color: #f00;
+  border-color: #f00;
+  z-index: 2;
+  background-color: #300;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10%;
+  display: none;
+}
